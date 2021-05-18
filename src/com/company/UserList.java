@@ -29,6 +29,7 @@ public class UserList extends ListOfIdentifiables<User> {
         user.setId(getNextId());
 // Добавить автора в список
         items.add(user);
+        
         return user;
     }
     // Класс искючения, указывающего при попытке добавления пользователя,
