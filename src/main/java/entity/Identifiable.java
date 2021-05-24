@@ -1,6 +1,5 @@
-package com.company;
+package entity;
 
 public interface Identifiable {
     int getId();
 }
-
